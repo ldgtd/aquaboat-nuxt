@@ -1,0 +1,55 @@
+/*----------------------------------------*\
+  MEDIA
+\*----------------------------------------*/
+
+.media {
+  .media__left {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .media__body {
+    padding: $spacing-unit-default;
+
+    background-color: $alt-white;
+
+    @include media('lg') {
+      padding: $spacing-unit-large;
+    }
+  }
+
+  .media__title {
+    margin-top: 0;
+  }
+}
+
+.media--vertical {
+  flex-direction: column;
+
+  .media__left,
+  .media__img,
+  .media__body {
+    width: 100%;
+  }
+}
+
+.media--responsive {
+  .media__left,
+  .media__body {
+    width: 100%;
+
+    @include media('md') {
+      width: 50%;
+
+      .media__img {
+        height: 100%;
+        object-fit: cover; // TODO: fallback for IE
+      }
+    }
+
+    .media__img {
+      width: 100%;
+    }
+  }
+}
+

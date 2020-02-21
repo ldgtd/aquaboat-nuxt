@@ -1,0 +1,11 @@
+/*----------------------------------------*\
+  CONTAINER
+  Add modifier to kanbasu container
+\*----------------------------------------*/
+
+.container--main {
+  margin-top: -180px;
+
+  position: relative;
+  z-index: 10;
+}

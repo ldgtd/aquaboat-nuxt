@@ -1,0 +1,32 @@
+/*----------------------------------------*\
+  HEROBANNER
+\*----------------------------------------*/
+
+.herobanner {
+  width: 100%;
+  height: 300px;
+
+  position: relative;
+  top: -$spacing-unit-default;
+  overflow: hidden;
+}
+
+  .herobanner__img {
+    min-width: 100%;
+    min-height: 100%;
+    margin: auto;
+
+    position: absolute;
+    top: -9999px;
+    right: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+  }
+
+/**
+ * Embed
+ */
+
+.herobanner--embed {
+  height: 40vh;
+}

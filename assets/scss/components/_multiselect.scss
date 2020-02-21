@@ -1,0 +1,21 @@
+/*----------------------------------------*\
+  MULTI SELECT
+\*----------------------------------------*/
+
+.multiselect {}
+.multiselect__tag,
+.multiselect__option--highlight,
+.multiselect__option--highlight::after,
+.multiselect__tag-icon:hover {
+  background-color: $brand-color-alt;
+}
+
+.multiselect__option--selected,
+.multiselect__option--selected::after {
+  color: white;
+  background-color: $brand-color;
+}
+
+.multiselect__tag-icon::after {
+  color: white;
+}

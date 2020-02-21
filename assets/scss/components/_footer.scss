@@ -1,0 +1,16 @@
+/*----------------------------------------*\
+  FOOTER
+\*----------------------------------------*/
+
+.footer {
+  position: relative;
+  margin-top: 200px;
+}
+
+  .footer__inner {
+    padding: $spacing-unit-default;
+
+    background: $brand-color;
+  }
+
+@import 'footer-wave';

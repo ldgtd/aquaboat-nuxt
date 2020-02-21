@@ -1,0 +1,46 @@
+/*----------------------------------------*\
+  IMAGE RESPONSIVE
+\*----------------------------------------*/
+
+.image-responsive {
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+
+  position: relative;
+}
+
+  .image-responsive__item {
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+.image-responsive--1\/1 {
+  padding-bottom: 100%;
+}
+
+.image-responsive--2\/3 {
+  padding-bottom: 150%;
+}
+
+.image-responsive--3\/2 {
+  padding-bottom: 66.66%;
+}
+
+.image-responsive--3\/4 {
+  padding-bottom: 133%;
+}
+
+.image-responsive--4\/3 {
+  padding-bottom: 75%;
+}
+
+.image-responsive--16\/9 {
+  padding-bottom: 56.25%;
+}

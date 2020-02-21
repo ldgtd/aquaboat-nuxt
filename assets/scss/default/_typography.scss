@@ -1,0 +1,22 @@
+/*----------------------------------------*\
+  TYPOGRAPHY
+\*----------------------------------------*/
+
+/**
+ * Headings
+ */
+
+@include headings {
+  font-family: $font-family-alt;
+}
+
+.heading {
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-left-color: $brand-color;
+  padding-left: $spacing-unit-small;
+}
+
+.heading--alt {
+  border-left-color: $brand-color-alt;
+}
