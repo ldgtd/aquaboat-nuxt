@@ -1,15 +1,19 @@
 <template>
-  <div class="container">
-    <logo />
-  </div>
+  <Header />
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Header from '~/components/Header.vue'
 
 export default {
   components: {
-    Logo
+    Header
+  },
+
+  head () {
+    return {
+      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }]
+    }
   }
 }
 </script>
